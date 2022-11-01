@@ -1,0 +1,48 @@
+
+section{
+    width: 250px;
+    padding-bottom: 0;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.img-container{
+    width: 250px;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-container img{
+    height: 150px;
+}
+
+.product-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:20px ;
+}
+h2{
+    font-size: 20px;
+    margin-bottom:0 ;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+}
+
+strong{
+    color: blueviolet;
+}
+button{
+    border: none;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 'Monteserrat', 'sans-serif';
+    font-weight: 500 ;
+    cursor: pointer;
+}
